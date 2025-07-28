@@ -1,3 +1,4 @@
+HEAD
 🧮 Mini Calculator
 A simple, interactive Python mini-calculator that performs addition, subtraction, multiplication, and division on two numbers. It’s user-friendly, works with decimals, and even adds a dash of humor! 😎
 
@@ -80,3 +81,6 @@ License
 Feel free to use, modify, or share this script for any purpose!
 
 Enjoy calculating like a boss! ✨
+# Elite-School-Website
+index.html assignment
+ a16204d054cb19ecf07eccafb8cc315d092e1142
