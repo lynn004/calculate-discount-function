@@ -13,7 +13,7 @@ print(fruits)
 print(len(fruits))  #length of list
 
 for fruit in fruits:
-    print(fruit)
+    print(fruit)   #looping in a list
 
 
 
