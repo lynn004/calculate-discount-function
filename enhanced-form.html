@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enhanced Form</title>
+</head>
+<body>
+
+<h1>My HTML Page</h1>
+<p>This page has lists, tables, media and a form.</p>
+
+<!-- List -->
+<h2>Things I Like</h2>
+<ul>
+    <li>Reading</li>
+    <li>Watching movies</li>
+    <li>Travelling</li>
+</ul>
+
+<!-- Table -->
+<h2>My Weekly Schedule</h2>
+<table >
+    <tr>
+        <th>Day</th>
+        <th>Activity</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>School</td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>Sports</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>School</td>
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>Hospital Visit</td>
+    </tr>  
+    <tr>
+        <td>Friday</td>
+        <td>School</td>
+    </tr>
+
+
+</table>
+
+<!-- Media -->
+<h2>My Favorite Picture</h2>
+<img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300">
+
+<h2>Sample Video</h2>
+<video width="300" controls>
+    <source src="sample-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- Form -->
+<h2>Registration Form</h2>
+<form action="#" method="post" autocomplete="on">
+    <label>Full Name:</label>
+    <input type="text" name="fullname" placeholder="Enter your full name" required>
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="you@example.com" required>
+    <br><br>
+
+    <label>Phone Number:</label>
+    <input type="tel" name="phone" placeholder="+254700000000" pattern="^\+?\d{9,15}$" required>
+    <br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required>
+    <br><br>
+
+    <label>Gender:</label>
+    <select name="gender" required>
+        <option value="">Select...</option>
+        <option>Male</option>
+        <option>Female</option>
+    </selec>
+    <br><br>
+
+    <label>Username:</label>
+    <input type="text" name="username" value="User123" readonly>
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter password" required minlength="6">
+    <br><br>
+
+    <label>About You:</label>
+    <textarea name="about" placeholder="Write something here..."></textarea>
+    <br><br>
+
+    <label>
+        <input type="checkbox" name="terms" required>
+        I agree to the terms and conditions
+    </label>
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
